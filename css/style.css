@@ -132,7 +132,7 @@ section 2*/
     margin-bottom: 50px;
 }
 
-#section-2 .section-2-text button{
+#section-2 .section-2-text a{
     background: #CCE8FD;
     border-radius: 20px;
     border: none;
@@ -141,9 +141,21 @@ section 2*/
     font-family: 'Euclid Circular B', sans-serif;
     font-weight: 400;
     color: #130f49;
+    display: inline-flex;
 }
 
-#section-2 .section-2-text button span{
+
+#section-2 .section-2-text a .text{
+    padding-left: 10px;
+}
+
+
+#section-2 .section-2-text a p{
+    opacity: 1;
+    line-height: 20px;
+}
+
+#section-2 .section-2-text a p span{
     color: #130f49;
     font-size: 14px;
     font-family: 'Euclid Circular B', sans-serif;
@@ -151,66 +163,13 @@ section 2*/
     opacity: 0.4;
 }
 
-#section-2 .section-2-text button i{
-    font-size: 25px;
-    padding-bottom: 30px;
+#section-2 .section-2-text a p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 
 /*====================================
 section 3*/
 
-
-#section-3{
-    background-image: url(../images/bg\ 3\ 2.png);
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-#section-3 h1{
-    font-size: 85px;
-    padding-right: 100px;
-    font-family: 'Euclid Circular B', sans-serif;
-    font-weight: 500;
-    color: #130f49;
-    margin-bottom: 60px;
-}
-
-#section-3 h5{
-    font-size: 40px;
-    padding-right: 100px;
-    font-family: 'Euclid Circular B', sans-serif;
-    font-weight: 400;
-    color: #130f49;
-    opacity: 0.4;
-    margin-top: 150px;
-}
-
-#section-3 .content-box{
-    padding-left: 100px;
-    margin-top: 40px;
-}
-
-#section-3 .content-box-item{
-    background: white;
-    display: inline-block;
-    border-radius: 29px;
-    padding: 28px 23px 15px 23px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#section-3 .content-box-item h6{
-    font-weight: 400;
-    font-family: 'Euclid Circular B', sans-serif;
-    color: #0b0736;
-    font-size: 14px;
-}
-
-#section-3 .content-box-item p{
-    font-weight: 400;
-    font-family: 'Euclid Circular B', sans-serif;
-    color: #0b0736;
-    font-size: 14px;
-    opacity: 0.4;
-}
