@@ -147,6 +147,7 @@ section 2*/
 
 #section-2 .section-2-text a .text{
     padding-left: 10px;
+    margin-top: -5px;
 }
 
 
@@ -174,8 +175,11 @@ section 2*/
 section 3*/
 
 #section-3{
-    background: url(../images/bg\ 3\ 2.png) no-repeat left;
-    background-size: 50%;
+    background: url(../images/bg\ 3\ 2.png) no-repeat;
+    background-size: 45%;
+    background-position: left;
+    margin-top: 100px;
+    padding-bottom: 200px;
 }
 
 #section-3 h1{
@@ -205,6 +209,16 @@ section 3*/
     margin-left: 100px;
 }
 
+#section-3 .item-box-2{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+
+#section-3 .item-box-2 .item-box:nth-child(2){
+    width: 140px;
+}
+
 #section-3 .item-box h3{
     font-family: 'Euclid Circular B', sans-serif;
     font-weight: 400;
@@ -221,3 +235,28 @@ section 3*/
     opacity: 0.4;
 }
 
+#section-3 .icon-box{
+    margin-left: 250px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#section-3 .icon-box .icon-box-icon .icon{
+    background: #FECFD0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-3 .icon-box .icon-box-text p{
+    font-family: 'Euclid Circular B', sans-serif;
+    font-weight: 400;
+    color: #130f49;
+    font-size: 20px;
+    opacity: 0.4;
+    padding-right: 240px;
+    padding-left: 20px;
+}
