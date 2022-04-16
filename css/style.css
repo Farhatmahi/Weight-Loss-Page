@@ -107,6 +107,7 @@ section 2*/
     justify-content: center;
     align-items: flex-end;
     z-index: 10;
+    overflow: hidden;
 }
 
 #section-2 .circle img{
@@ -114,6 +115,7 @@ section 2*/
     box-shadow: 15px 5px 35px -3px rgba(227,81,104,0.39);
     -webkit-box-shadow: 15px 5px 35px -3px rgba(227,81,104,0.39);
     -moz-box-shadow: 15px 5px 35px -3px rgba(227,81,104,0.39);
+    border-radius: 25px;
 }
 
 #section-2 .section-2-text h1{
@@ -325,10 +327,16 @@ section 3*/
     justify-content: center;
     align-items: flex-start;
     z-index: 10;
+    overflow: hidden;
 }
 
 #section-4 .circle img{
-    border-radius: 50px;
+    background: rgba( 135, 115, 38, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #section-5{

@@ -1,0 +1,32 @@
+@media (max-width : 575px){
+    
+    #banner .banner-text h1{
+        font-family: 'Euclid Circular B', sans-serif;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 48px;
+        padding-right: 0px;
+        margin-top: 180px;
+        text-align: center;
+    }
+
+    #banner .banner-text p{
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        font-family: 'Euclid Circular B', sans-serif;
+        margin: 30px 0 35px 0;
+    }
+
+    #banner .banner-text button{
+        background: #130f49;
+        color: white;
+        border: none;
+        border-radius: 17px;
+        padding: 18px 28px;
+        font-family: 'Euclid Circular B', sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin: 0 auto;
+    }
+}
